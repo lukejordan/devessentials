@@ -1,1 +1,2 @@
 *.DS_Store
+config/private_config.sh
