@@ -1,28 +1,24 @@
 #!
 echo "Loading aliases..."
 
-export SCRIPT_HOME=~/Development/devessentials/script
-
+echo Development home: ${DEVELOPMENT_HOME}
 echo Set script home as: ${SCRIPT_HOME}
+
 alias scripthome="cd ${SCRIPT_HOME}"
 source ${SCRIPT_HOME}/config.sh
 
+source ${SCRIPT_HOME}/script_mac.sh
+
 # Goto
-alias gotodevops="cd ~/Development/devenv-devops"
+alias devhome="cd ${DEVELOPMENT_HOME}"
+alias gotodevops="cd ${DEVELOPMENT_HOME}/devenv-devops"
 
 # Misc
+alias bashreload="source ~/.profile"
 alias edit="atom"
 alias aliasedit="atom ${SCRIPT_HOME}/alias.sh"
-alias bashreload="source ~/.profile"
 
 alias editpom="atom pom.xml"
-
-alias showhiddenfiles="defaults write com.apple.finder AppleShowAllFiles YES"
-alias hidehiddenfiles="defaults write com.apple.finder AppleShowAllFiles NO"
-
-# Cloud
-export AEM_AUTH_JAR_NAME=cq-author-4502.jar
-export AEM_PUB_JAR_NAME=cq-publish-4503.jar
 
 alias sshcloudwcsauth="ssh ${CLOUD_USER}@${WCS_AUTH_CLOUD_HOST}"
 alias sshcloudwcspub="ssh ${CLOUD_USER}@${WCS_PUB_CLOUD_HOST}"
