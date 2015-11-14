@@ -7,7 +7,9 @@ sudo apt-get install virtualbox
 
 sudo apt-get install virtualbox-dkms
 sudo apt-get install linux-headers-generic
+sudo apt-get install virtualbox-qt
 VBoxManage --version
+#Enable vtx in the bios
 
 #sudo apt-get install vagrant
 cd ~
