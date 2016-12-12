@@ -1,0 +1,2 @@
+#!
+echo "Loading app config"
