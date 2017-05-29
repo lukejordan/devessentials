@@ -19,10 +19,10 @@ alias apachehome="cd /usr/local/etc/apache2/2.2"
 alias bashreload="source ~/.profile"
 alias edit="atom"
 alias aliasedit="atom ${SCRIPT_HOME}/alias.sh"
+
+
 alias mysqlstart="mysql.server start"
 alias mysqlstop="mysql.server stop"
-
-alias editpom="atom pom.xml"
 
 source ${SCRIPT_HOME}/alias_work.sh
 source ${SCRIPT_HOME}/alias_local_aem.sh
@@ -30,5 +30,4 @@ source ${SCRIPT_HOME}/alias_local_aem.sh
 alias deployapp="open -a Terminal.app ${SCRIPT_HOME}/deployWebapp.sh"
 
 echo "Aliases loaded"
-
 #alias =""
