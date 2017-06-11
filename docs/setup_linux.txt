@@ -1,0 +1,5 @@
+Install maven
+Install eclipse
+Remove and install jdk8
+Install aem
+Install Service pack

@@ -1,0 +1,11 @@
+Verify MD5
+md5sum apache-maven-3.5.0-bin.tar.gz
+
+
+Verify GPG
+gpg --import KEYS
+gpg --verify apache-maven-3.5.0-bin.tar.gz.asc apache-maven-3.5.0-bin.tar.gz
+
+
+Other
+sha256sum --check apache-maven-3.5.0-bin.tar.gz
