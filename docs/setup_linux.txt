@@ -1,5 +1,79 @@
 Install maven
 Install eclipse
+Install intelliJ
 Remove and install jdk8
 Install aem
 Install Service pack
+
+sudo apt-get update
+
+sudo apt-get install docker-io
+
+sudo apt-get install docker-c
+sudo apt install docker-compose
+
+
+sudo apt-get install atom
+sudo apt-get install vim
+sudo apt-get install chrome
+
+
+
+
+--- Not needed ---
+
+Install docker
+sudo apt-get update
+sudo apt-get install \
+    linux-image-extra-$(uname -r) \
+    linux-image-extra-virtual
+
+Had to run the following first:
+
+sudo apt-get install linux-image-generic
+
+sudo apt-get install \
+    apt-transport-https \
+    ca-certificates \
+    curl \
+    software-properties-common
+
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+
+sudo apt-key fingerprint 0EBFCD88
+
+sudo dpkg --print-architecture
+
+amd64 - Please change xenial with the ubuntu version that mint is based off.
+sudo add-apt-repository \
+   "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+   xenial \
+   stable"
+
+
+VBox Manage
+
+wget http://download.virtualbox.org/virtualbox/5.0.20/Oracle_VM_VirtualBox_Extension_Pack-5.0.20-106931.vbox-extpack
+sudo VBoxManage extpack install ./Oracle_VM_VirtualBox_Extension_Pack-5.0.20-106931.vbox-extpack
+deb http://download.virtualbox.org/virtualbox/debian xenial contrib
+
+
+392  md5sum virtualbox-5.1_5.1.22-115126-Ubuntu-xenial_amd64.deb
+393  sudo apt-get update
+394  sudo apt-get install virtualbox-5.1
+395  virtualbox
+396  wget http://download.virtualbox.org/virtualbox/5.0.20/Oracle_VM_VirtualBox_Extension_Pack-5.0.20-106931.vbox-extpack
+397  sudo VBoxManage extpack install ./Oracle_VM_VirtualBox_Extension_Pack-5.0.20-106931.vbox-extpack
+398  ls
+399  deb http://download.virtualbox.org/virtualbox/debian xenial contrib
+400  sudo atom /etc/apt/sources.list
+401  sudo apt-key add oracle_vbox.asc
+402  sudo apt-key add oracle_vbox_2016.asc
+403  wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | sudo apt-key add -
+404  sudo apt-get update
+405  sudo apt-get install virtualbox-5.1
+
+apt-get install linux-headers-4.4.0-79-generic
+  416  sudo apt-get install linux-headers-4.4.0-79-generic
+  417  sudo /sbin/vboxconfig
+  418  docker-machine create default
