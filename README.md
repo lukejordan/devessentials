@@ -1,7 +1,6 @@
 # devessentials
-In your environment profile, include both your configuration file for local paths, and your inclusion of the alias file. The alias file requies local config.
+Your alias relies on local private configuration. Please ensure this is completed first.
 
-Example paths
+To use, add the following into your ~/.profile and it'll pull in all your config and aliases. Magic.
 
-/opt/development/devessentials/config/private_config.sh
-/opt/development/devessentials/script/alias.sh
+source ~/Development/devessentials/script/work_mac.sh

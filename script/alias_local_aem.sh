@@ -9,6 +9,8 @@ alias aempubhome="cd ${AEM_HOME}/publish"
 
 alias aemauthstart="open -a Terminal.app ${SCRIPT_HOME}/aem6AuthStart.sh"
 alias aempubstart="open -a Terminal.app ${SCRIPT_HOME}/aemPubStart.sh"
+alias aemvanillaauthstart="java -jar cq-author-4502.jar -gui"
+alias aemvanillapubstart="java -jar cq-publish-4503.jar -gui"
 
 alias aemdeploy="open -a Terminal.app ${SCRIPT_HOME}/aemDeploy.sh"
 alias aemquickdeploy="open -a Terminal.app ${SCRIPT_HOME}/aemQuickDeploy.sh"
