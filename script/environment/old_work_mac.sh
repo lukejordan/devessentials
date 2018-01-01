@@ -6,7 +6,5 @@ export DEV_ESSENTIALS_HOME=~/Development/devessentials
 source ${DEV_ESSENTIALS_HOME}/config/private_config.sh
 source ${DEV_ESSENTIALS_HOME}/script/alias.sh
 
-source ${DEV_ESSENTIALS_HOME}/script/work_mac/script_mac.sh
-
-source ${DEV_ESSENTIALS_HOME}/script/work_mac/env_config.sh
-source ${DEV_ESSENTIALS_HOME}/script/work_mac/app_config.sh
+source ${DEV_ESSENTIALS_HOME}/script/environment/old_work_mac/env_config.sh
+source ${DEV_ESSENTIALS_HOME}/script/environment/old_work_mac/app_config.sh
