@@ -6,6 +6,7 @@ echo Set script home as: ${SCRIPT_HOME}
 
 alias scripthome="cd ${SCRIPT_HOME}"
 
+
 source ${SCRIPT_HOME}/config.sh
 source ${SCRIPT_HOME}/script_mac.sh
 
