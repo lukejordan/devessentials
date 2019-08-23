@@ -1,6 +1,6 @@
 #!
 echo "Loading mac specific config"
-export DEV_ESSENTIALS_HOME=~/Development/devessentials
+export DEV_ESSENTIALS_HOME=~/Documents/dev/code/devessentials
 
 #echo Load Private Config from ${DEV_ESSENTIALS_HOME}
 source ${DEV_ESSENTIALS_HOME}/config/private_config.sh

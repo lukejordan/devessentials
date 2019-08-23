@@ -1,6 +1,9 @@
 #!/bin/sh
 echo "Loading work alias"
 
+#source ${SCRIPT_HOME}/mns/alias_mns.sh
+source ${SCRIPT_HOME}/jl/alias_jl.sh
+
 alias aemcodehome="cd ~/Development/code/shop-content/mns-repo"
 
 alias sshrda="ssh ${CLOUD_USER}@${OLD_DEV_RDA_CLOUD_HOST}"
@@ -15,11 +18,6 @@ alias sshrdaprod2="ssh ${CLOUD_USER}@${PROD2_RDA_CLOUD_HOST}"
 alias sshmuledev="ssh ${MULE_USER}@${DEV_MULE_HOST}"
 alias sshmuleinta="ssh ${MULE_USER}@${INTA_MULE_HOST}"
 alias sshmulecatea="ssh ${MULE_USER}@${CATEA_MULE_HOST}"
-
-alias foodshome="cd ${FOODS_HOME}"
-
-alias deployrda="open -a Terminal.app ${SCRIPT_HOME}/deployFoods.sh"
-alias deployrdabe="open -a Terminal.app ${SCRIPT_HOME}/deployFoodsBe.sh"
 
 #AEM
 alias sshcloudwcsauth="ssh ${CLOUD_USER}@${WCS_AUTH_CLOUD_HOST}"
